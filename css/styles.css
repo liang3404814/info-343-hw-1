@@ -1,0 +1,60 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web);
+
+body {
+	background-image: url(../img/pizza1.jpg);
+	background-size: 150%;
+	background-repeat: no-repeat;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	color: #E1EFF2;
+	/*padding: 10px;*/
+}
+
+header {
+	background-color: #76596F;
+	margin: 1.1em auto;
+	width: 60%;
+	box-shadow: 2px 2px 6px #000;
+	
+}
+
+a {
+	color: #E1EFF2;
+	text-decoration: none;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 95%;
+}
+
+.brand {
+	margin: 0px 20px 10px 20px;
+}
+
+.brand img {
+	width: 150px;
+	float: left;
+	margin-right: 10px;
+	box-shadow: 2px 2px 6px #000;
+}
+
+.brand h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 45px;
+	padding-top: 5px;
+}
+
+nav {
+	padding-bottom: 5px;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 5px;
+	border-right: solid 1px #7C8A8A;
+}
+
