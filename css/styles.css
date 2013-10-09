@@ -13,7 +13,7 @@ body {
 
 header {
 	background-color: #76596F;
-	margin: 1.1em auto;
+	margin: 2.0em auto;
 	width: 60%;
 	box-shadow: 2px 2px 6px #000;
 
@@ -24,19 +24,18 @@ a {
 	text-decoration: none;
 }
 
-.wrapper {
-	margin: 0 auto;
-	width: 95%;
-}
+
 
 .brand {
-	margin: 0px 20px 10px 20px;
+	margin: 0px 20px 10px 0px;
 }
 
 .brand img {
 	width: 150px;
 	float: left;
 	margin-right: 10px;
+	margin-left: 12px;
+	margin-top: -14px;
 	box-shadow: 2px 2px 6px #000;
 }
 
