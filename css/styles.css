@@ -56,12 +56,12 @@ section {
 	margin: 0 auto;
 }
 
-.biz-info .biz-hour{
+.left-column {
 	float: left;
 	width: 50%;
 }
 
-.biz-info .biz-contact {
+.right-column {
 	float: right;
 	width: 50%;
 }
@@ -102,7 +102,7 @@ section {
 	margin-left: 2px;
 }
 
-.wrapper {
+.column-wrapper {
 	width: 90%;
 	margin: 0 auto;
 }
