@@ -7,20 +7,21 @@ body {
 	background-repeat: no-repeat;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18px;
-	color: #E1EFF2;
+	color: #FFF;
 	/*padding: 10px;*/
 }
 
 header {
-	background-color: #76596F;
+	background-color: #FF7100;
 	margin: 2.0em auto;
 	width: 60%;
-	box-shadow: 2px 2px 6px #000;
-
+	border: 10px solid rgba(124, 138, 138, 0.);
+/*	box-shadow: 2px 2px 6px #000;
+*/
 }
 
 a {
-	color: #E1EFF2;
+	color: #FFF;
 	text-decoration: none;
 }
 
@@ -33,11 +34,11 @@ a {
 .brand img {
 	width: 150px;
 	float: left;
-	margin-right: 10px;
+	margin-right: 12px;
 	margin-left: 12px;
-	margin-top: -14px;
-	box-shadow: 2px 2px 6px #000;
-}
+	margin-top: -12px;
+/*	box-shadow: 2px 2px 6px #000;
+*/}
 
 .brand h1 {
 	font-family: 'Titillium Web', sans-serif;
@@ -54,6 +55,25 @@ nav li {
 	display: inline-block;
 	padding-right: 10px;
 	padding-left: 5px;
-	border-right: solid 1px #7C8A8A;
+	border-right: solid 1px #000;
 }
+
+article,
+footer	{
+	width: 56%;
+	margin: 40px auto;
+	background-color: #A64A00;
+	padding: 2%;
+}
+
+footer p {
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 70%;
+}
+
+footer .prompt {
+
+}
+
 
