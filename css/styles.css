@@ -16,7 +16,7 @@ header {
 	margin: 1.1em auto;
 	width: 60%;
 	box-shadow: 2px 2px 6px #000;
-	
+
 }
 
 a {
@@ -42,7 +42,7 @@ a {
 
 .brand h1 {
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 45px;
+	font-size: 300%;
 	padding-top: 5px;
 }
 
