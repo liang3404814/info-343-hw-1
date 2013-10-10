@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Kotta+One);
 body {
 	/*background-image: url(../img/pizza1.jpg);*/
-	font-family: 'Arial', sans-serif;
+	font-family: 'Arial', 'Trebuchet MS', sans-serif;
 	font-size: 18px;
 	color: #FFF;
 	/*padding: 10px;*/
@@ -37,71 +37,6 @@ nav li + li:before {
 	content: " | ";
 }
 
-section {
-	margin-bottom: 10px;
-}
-
-.description p {
-	font-family: 'Kotta One', serif;
-	font-size: 150%;
-	/*color: #FFB173;*/
-	margin-bottom: 40px;
-}
-
-.biz-info {
-	display: inline-block;
-	margin: 0 auto;
-}
-
-.left-column {
-	float: left;
-	width: 50%;
-}
-
-.right-column {
-	float: right;
-	width: 50%;
-}
-
-.info-block {
-	margin-bottom: 10px;
-}
-
-.info-block p{
-	font-size: 80%;
-}
-
-.info-block h3 {
-	/*color: #FFB173;*/
-}
-
-.brand {
-	margin: 0px 20px 10px 0px;
-}
-
-.brand img {
-	width: 150px;
-	float: left;
-	margin-right: 12px;
-	margin-left: 12px;
-	margin-top: -12px;
-}
-
-.brand h1 {
-	font-family: 'Kotta One', serif;
-	font-size: 250%;
-	padding-top: 5px;
-}
-
-.tel {
-	margin-left: 2px;
-}
-
-.column-wrapper {
-	width: 90%;
-	margin: 0 auto;
-}
-
 article,
 footer	{
 	width: 56%;
@@ -111,17 +46,8 @@ footer	{
 	padding: 2%;
 }
 
-.gap-container img{
-	width: 60%;
-	margin: 0px auto;
-	display: block;
-}
-
-.gap-container p {
-	width: 49%;
-	margin: -10% 0 0 30%;
-	position: absolute;
-	text-align: right;
+section {
+	margin-bottom: 10px;
 }
 
 footer {
@@ -145,6 +71,87 @@ footer .prompt {
 
 }
 
+.content {
+	margin-top: -3px;
+}
+
+.biz-info {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.left-column {
+	float: left;
+	width: 38%;
+}
+
+.right-column {
+	float: right;
+	width: 38%;
+}
+
+.info-block {
+	margin-bottom: 10px;
+}
+
+.info-block p{
+	font-size: 80%;
+}
+
+.info-block h3 {
+	/*color: #FFB173;*/
+}
+
+.brand {
+	margin: 0px 20px 10px 0px;
+}
+
+.brand img {
+	width: 150px;
+	float: left;
+	margin-right: 38px;
+	margin-left: 12px;
+	margin-top: -12px;
+}
+
+.brand h1 {
+	font-family: 'Kotta One', serif;
+	font-size: 250%;
+	padding-top: 5px;
+}
+
+.tel {
+	margin-left: 2px;
+}
+
+.column-wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.gap-container {
+	width: 60%;
+	margin: 0px auto;
+	position: relative;
+}
+
+.gap-container img{
+	width: 100%;
+}
+
+.gap-container .description {
+	position: absolute;
+	left: 14%;
+	bottom: 0%;
+	z-index: 100;
+}
+
+.description p {
+	font-family: 'Kotta One', 'Georgia', serif;
+	font-size: 150%;
+	/*color: #FFB173;*/
+	margin-bottom: 40px;
+}
 
 
 
