@@ -185,6 +185,8 @@ header .twitter-img {
 .subtype dl,
 .subtype p {
 	margin-left: 20px;
+	border-left: 1px solid white;
+	padding-left: 10px;
 }
 
 .subtype dt {
