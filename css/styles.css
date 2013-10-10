@@ -1,9 +1,7 @@
 @import url(reset.css);
 @import url(http://fonts.googleapis.com/css?family=Kotta+One);
 body {
-	background-image: url(../img/pizza1.jpg);
-	background-size: 150%;
-	background-repeat: no-repeat;
+	/*background-image: url(../img/pizza1.jpg);*/
 	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	color: #FFF;
@@ -11,7 +9,8 @@ body {
 }
 
 header {
-	background-color: #FF7100;
+	/*background-color: rgba(255, 113, 0, 0.8);*/
+	background-color: black;
 	margin: 2.0em auto;
 	width: 60%;
 }
@@ -32,9 +31,10 @@ nav a{
 
 nav li {
 	display: inline-block;
-	padding-right: 10px;
-	padding-left: 5px;
-	border-right: solid 1px #000;
+}
+
+nav li + li:before {
+	content: " | ";
 }
 
 section {
@@ -44,7 +44,7 @@ section {
 .description p {
 	font-family: 'Kotta One', serif;
 	font-size: 150%;
-	color: #FFB173;
+	/*color: #FFB173;*/
 	margin-bottom: 40px;
 }
 
@@ -72,7 +72,7 @@ section {
 }
 
 .info-block h3 {
-	color: #FFB173;
+	/*color: #FFB173;*/
 }
 
 .brand {
@@ -85,8 +85,7 @@ section {
 	margin-right: 12px;
 	margin-left: 12px;
 	margin-top: -12px;
-/*	box-shadow: 2px 2px 6px #000;
-*/}
+}
 
 .brand h1 {
 	font-family: 'Kotta One', serif;
@@ -107,7 +106,8 @@ article,
 footer	{
 	width: 56%;
 	margin: 40px auto;
-	background-color: rgba(166, 74, 0, 0.7);
+	/*background-color: rgba(166, 74, 0, 0.7);*/
+	background-color: black;
 	padding: 2%;
 }
 
