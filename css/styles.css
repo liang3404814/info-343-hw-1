@@ -39,6 +39,10 @@ nav li + li:before {
 	content: " | ";
 }
 
+section {
+	margin-bottom: 20px;
+}
+
 article,
 footer	{
 	margin: 0px auto;
