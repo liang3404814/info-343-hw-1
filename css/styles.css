@@ -74,18 +74,18 @@ header .twitter-img {
 }
 
 .biz-info {
-	display: inline-block;
+	display: inline;
 	margin: 0 auto;
 }
 
 .left-column {
 	float: left;
-	width: 38%;
+	width: 50%;
 }
 
 .right-column {
 	float: right;
-	width: 38%;
+	width: 44%;
 }
 
 .info-block {
@@ -134,12 +134,13 @@ header .twitter-img {
 	padding: 8px;
 	margin: 3px auto;
 	background-color: grey;
-	width: 30%;
+	width: 70%;
 	border-radius: 5px;
+	font-size: 140%
 }
 
 .column-wrapper {
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -167,6 +168,7 @@ header .twitter-img {
 }
 
 .foot-text {
+	clear: both;
 	text-align: center;
 }
 
