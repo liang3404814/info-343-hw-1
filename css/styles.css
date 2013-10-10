@@ -5,14 +5,15 @@ body {
 	font-family: 'Arial', 'Trebuchet MS', sans-serif;
 	font-size: 18px;
 	color: #FFF;
+	margin: 2.0em auto;
+	width: 60%;
 	/*padding: 10px;*/
 }
 
 header {
 	/*background-color: rgba(255, 113, 0, 0.8);*/
 	background-color: black;
-	margin: 2.0em auto;
-	width: 60%;
+
 }
 
 a {
@@ -39,7 +40,6 @@ nav li + li:before {
 
 article,
 footer	{
-	width: 56%;
 	margin: 0px auto;
 	border-top: 1px solid red;
 	/*background-color: rgba(166, 74, 0, 0.7);*/
@@ -143,7 +143,6 @@ header .twitter-img {
 }
 
 .gap-container {
-	width: 60%;
 	margin: 0px auto;
 	position: relative;
 }
