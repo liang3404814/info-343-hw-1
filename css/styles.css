@@ -147,6 +147,7 @@ header .twitter-img {
 .gap-container {
 	margin: 0px auto;
 	position: relative;
+	background-image: url(img/pizza1.jpg);
 }
 
 .gap-container img{
