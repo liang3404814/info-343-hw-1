@@ -224,3 +224,13 @@ header .twitter-img {
 
 /* About Page Specific*/
 
+.story h4 {
+	font-family: 'Kotta One', 'Georgia', serif;
+	font-size: 130%;
+}
+
+.story p {
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 90%;
+}
