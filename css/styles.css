@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Kotta+One);
 body {
 	/*background-image: url(../img/pizza1.jpg);*/
-	font-family: 'Arial', 'Trebuchet MS', sans-serif;
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	font-size: 18px;
 	color: #FFF;
 	margin: 2.0em auto;
@@ -48,9 +48,6 @@ footer	{
 	padding: 2%;
 }
 
-section {
-	margin-bottom: 10px;
-}
 
 footer {
 	padding-top: 1em;
@@ -76,6 +73,7 @@ header .twitter-img {
 .biz-info {
 	display: inline;
 	margin: 0 auto;
+	margin-bottom: 10px;
 }
 
 .left-column {
@@ -174,4 +172,26 @@ header .twitter-img {
 	text-align: center;
 }
 
+/* Menu Page Specific */
+
+.subtype {
+	margin: 30px 0px 0px 30px;
+}
+
+.subtype dl,
+.subtype p {
+	margin-left: 20px;
+}
+
+.subtype dt {
+	font-family: 'Kotta One', 'Georgia', serif;
+	font-size: 110%;
+	margin-top: 15px;
+}
+
+.subtype dd {
+	font-size: 70%;
+}
+
+/* About Page Specific*/
 
