@@ -1,10 +1,10 @@
 @import url(reset.css);
-@import url(http://fonts.googleapis.com/css?family=Kotta+One|Raleway);
+@import url(http://fonts.googleapis.com/css?family=Kotta+One);
 body {
 	background-image: url(../img/pizza1.jpg);
 	background-size: 150%;
 	background-repeat: no-repeat;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Arial', sans-serif;
 	font-size: 18px;
 	color: #FFF;
 	/*padding: 10px;*/
