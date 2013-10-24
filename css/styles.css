@@ -1,10 +1,17 @@
-@import url(reset.css);
 @import url(http://fonts.googleapis.com/css?family=Kotta+One);
+@import url(https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css);
+
+* {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
 body {
 	/*background-image: url(../img/pizza1.jpg);*/
 	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-	font-size: 18px;
 	color: #black;
+	font-size: 18px;
 	background-color: #FFc773;
 	margin: 2.0em auto;
 	width: 60%;
@@ -15,6 +22,7 @@ header {
 	/*background-color: rgba(255, 113, 0, 0.8);*/
 	background-color: #689CD2;
 	margin-bottom: 30px;
+	min-height: 50px;
 
 }
 
@@ -48,8 +56,6 @@ section {
 article,
 footer	{
 	margin: 0px auto;
-	border-top: 1px solid red;
-	/*background-color: rgba(166, 74, 0, 0.7);*/
 	background-color: white;
 	padding-top: 4%;
 	padding-bottom: 2%;
@@ -69,42 +75,18 @@ footer p {
 	line-height: 20px;
 }
 
-header .twitter-img {
-	float: right;
-	max-height: 50px;
-	margin-top: -0.2em;
+.twitter-img {
+	width: 50px;
+	height: 50px;
 }
 
 .content {
 	margin-top: -3px;
 }
 
-.biz-info {
-	display: inline;
-	margin: 0 auto;
-	margin-bottom: 10px;
-}
-
-.left-column {
-	float: left;
-	width: 50%;
-}
-
-.right-column {
-	float: right;
-	width: 44%;
-}
-
-.info-block {
-	margin-bottom: 10px;
-}
 
 .info-block p{
 	font-size: 80%;
-}
-
-.info-block h3 {
-	/*color: #FFB173;*/
 }
 
 .brand {
@@ -116,7 +98,7 @@ header .twitter-img {
 	float: left;
 	margin-right: 38px;
 	margin-left: 12px;
-	margin-top: -12px;
+	margin-top: 4px;
 }
 
 .brand h1 {
@@ -177,8 +159,20 @@ header .twitter-img {
 	margin-bottom: 40px;
 }
 
+@media (max-width: 750px) {
+	.description p {
+		font-size: 90%;
+	}
+}
+
+@media (max-width: 430px) {
+	.description p {
+		font-size: 70%;
+	}
+}
+
+
 .foot-text {
-	clear: both;
 	text-align: center;
 }
 
