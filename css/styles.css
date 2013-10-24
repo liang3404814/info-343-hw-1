@@ -84,6 +84,10 @@ footer p {
 	margin-top: -3px;
 }
 
+.embed {
+	width: 100%;
+}
+
 
 .info-block p{
 	font-size: 80%;
